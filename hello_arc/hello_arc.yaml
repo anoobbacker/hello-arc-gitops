@@ -4,10 +4,11 @@ metadata:
   name: hello-arc
   namespace: hello-arc 
 spec:
-  type: LoadBalancer
+  type: NodePort
   ports:
-  - port: 8999
-    targetPort: 8080
+    nodePort: 30080 
+  # - port: 8999
+  #  targetPort: 8080
   selector:
     app: hello-arc
 ---
