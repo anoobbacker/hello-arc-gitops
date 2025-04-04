@@ -33,4 +33,4 @@ spec:
         - containerPort: 8080
         env:
         - name: MESSAGE
-          value: Welcome to my Azure Arc GitOps Demo on Azure Local Baremetal running on ASUS NUC 14 Pro!
+          value: Welcome to my Azure Arc GitOps Demo on Azure Local Baremetal running on ASUS NUC 14 Pro - SFF!
