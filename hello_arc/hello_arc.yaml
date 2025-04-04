@@ -5,6 +5,9 @@ metadata:
   namespace: hello-arc 
 spec:
   type: NodePort
+  ports:
+    - port: 8999
+      targetPort: 8080  
   selector:
     app: hello-arc
 ---
